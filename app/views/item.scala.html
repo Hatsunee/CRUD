@@ -1,0 +1,20 @@
+@(header: String, msg: String,myForm: Form[Message])
+
+@main(header) {
+
+<div class="container">
+	<h1>@header</h1>
+		<a class="btn btn-default" href="/" role="button">一覧に戻る</a>
+		<a class="btn btn-default" href="/add" role="button">新規</a>
+		<a class="btn btn-default" href="/find" role="button">投稿者検索</a>
+		<a class="btn btn-default" href="/delete" role="button">削除</a>
+	<hr>
+	<p>@msg</p>
+	@helper.form(action = routes.Application.edit) {
+	    @helper.inputText(myForm("id"),args='_label->"id",'_error->"Invalid value")
+		<input type = "hidden" value = "dummy" name = "name">
+	    <input type = "hidden" value = "dummy" name="message">
+		<input type="submit">
+	}	
+</div>
+}

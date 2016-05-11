@@ -1,0 +1,4 @@
+[0m[[0mdebug[0m] [0mCopy play resource mappings: [0m
+[0m[[0mdebug[0m] [0m	(/Users/hatsune.kitajima/Documents/play/dbtest/public/images/favicon.png,/Users/hatsune.kitajima/Documents/play/dbtest/target/scala-2.10/classes/public/images/favicon.png)[0m
+[0m[[0mdebug[0m] [0m	(/Users/hatsune.kitajima/Documents/play/dbtest/public/javascripts/jquery-1.9.0.min.js,/Users/hatsune.kitajima/Documents/play/dbtest/target/scala-2.10/classes/public/javascripts/jquery-1.9.0.min.js)[0m
+[0m[[0mdebug[0m] [0m	(/Users/hatsune.kitajima/Documents/play/dbtest/public/stylesheets/main.css,/Users/hatsune.kitajima/Documents/play/dbtest/target/scala-2.10/classes/public/stylesheets/main.css)[0m
